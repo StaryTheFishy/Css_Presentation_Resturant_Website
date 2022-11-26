@@ -1,0 +1,144 @@
+
+
+body {
+ background-color: #fff39e;
+ font-family: sans-serif;
+ margin: 0;
+ padding: 0;
+}
+
+a {
+    color: #ffda41;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+
+p{
+    Color: #000000;
+    font-size: 25px;
+    text-align: center;
+    opacity: 1;
+    min-width: 200px;
+  max-width: 1500px;
+  min-height: 200px;
+  max-height: 300px;
+}
+
+h1 {
+    color: #000000;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 90px;
+    opacity: 1;
+}
+
+h2 {
+    color: #ffda41;
+    text-align: center;
+    position:relative;
+    top: 10px;
+    /* This is an example of a layout technique, by using the 'position:relative', then having the header offset from the top by 10 pixels. */
+}
+
+.menu-list li {
+    color: #000000;
+    background: white;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    /* This is an example of a layout technique, by using the inline-block to make the list in the header have a different arrangement.*/
+    border-radius: 7px;
+    border: 5px solid white;
+    margin: 5px;
+}
+/* Here is an example of overwriting, since the 'menu-list' element is being overwritten by the 'a' element, with the font style and color, as well as the font size.*/
+.menu-list li:hover {
+    background:rgb(150, 253, 255);
+    border: 5px solid white;
+    color: white;
+}
+/* Here is an example of a pseudo-class, by using the :hover, I am able to have to button change color when a cursor hovers over it.*/
+
+.contact-list li {
+    color: #ffda41;
+    background: white;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 7px;
+    border: 1px solid white;
+    margin: 10px;
+}
+.contact-list li:hover {
+    background:rgb(150, 253, 255);
+    border: 5px solid white;
+}
+
+.drinks-list li,
+.food-list li
+{
+    color: #ffda41;
+    background: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 7px;
+    border: 1px solid white;
+    margin: 10px;
+}
+
+footer {
+    color: #ffda41;
+    font-weight: bold;
+}
+
+.image {
+    background-image: url(austin-p-1ZTccDpF71k-unsplash.jpg);
+    /* Image is from Austin P on UNSPLASH https://unsplash.com/photos/1ZTccDpF71k */
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 100%;
+    opacity: 0.75;
+}
+
+.image-two {
+    background-image: url(monika-grabkowska-h1rfvAzzwdY-unsplash.jpg);
+    /* Image is from Monika Grabkowska on UNSPLASH https://unsplash.com/photos/h1rfvAzzwdY */
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 100%;
+    opacity: 0.75;
+}
+
+.image-three {
+    background-image: url(charity-beth-long-_PaXoN4_2s0-unsplash.jpg);
+    /* Image is from Charity Beth Long on UNSPLASH https://unsplash.com/photos/_PaXoN4_2s0 */
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 100%;
+    opacity: 0.75;
+}
+
+.image-four {
+    background-image: url(elena-leya-bYT03asyd1w-unsplash.jpg);
+    /* Image is from Elena Laya on UNSPLASH https://unsplash.com/photos/bYT03asyd1w */
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 100%;
+    opacity: 0.75;
+}
+
+#img-one,
+#img-two,
+#img-three,
+#img-four,
+#img-five,
+#img-six {
+    margin: 20px 10px;
+}
